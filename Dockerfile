@@ -1,11 +1,5 @@
-# Use an official web server image as the base image
-FROM nginx:latest
+# Use a small base image
+FROM nginx:alpine
 
-# Copy the HTML and other assets into the container
-COPY . /usr/share/nginx/html
-
-# Expose the default port for the web server
-EXPOSE 80
-
-# Start the web server
-CMD ["nginx", "-g", "daemon off;"]
+# Copy the HTML file to the web server's default directory
+COPY index.html /usr/share/nginx/html/
