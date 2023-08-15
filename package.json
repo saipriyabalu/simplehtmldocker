@@ -1,0 +1,22 @@
+{
+  "name": "hello-app",
+  "version": "1.0.0",
+  "description": "Node Express Hello application",
+  "author": "Example User <username@example.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  },
+  "license": "UPL-1.0",
+  "bugs": {
+    "url": "https://github.com/username/repository/issues"
+  },
+  "homepage": "https://github.com/username/repository#readme"
+}
