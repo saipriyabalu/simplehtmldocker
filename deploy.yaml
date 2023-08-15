@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: sample-html-app
-          image: sample-html-app:latest
+          image: sample-html-app:v1
           ports:
             - containerPort: 80
 
