@@ -15,7 +15,7 @@ spec:
       containers:
       - name: app
         #image: iad.ocir.io/natdcshjumpstartprod/signup:ami75qb
-        image: saipriyabalu/nodeapp:latest
+        image: saipriyabalu/sample-html-app:latest
         imagePullPolicy: Always
         ports:
         - name: app
