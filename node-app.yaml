@@ -16,7 +16,7 @@ spec:
       - name: app
         #image: iad.ocir.io/natdcshjumpstartprod/signup:ami75qb
         #image: iad.ocir.io/natdcshjumpstartprod/nodetestapp:latest
-        image: saipriyabalu/nodeapp1:latest
+        image: saipriyabalu/solartishtml5:latest
         imagePullPolicy: Always
         ports:
         - name: app
